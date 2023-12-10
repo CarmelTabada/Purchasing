@@ -55,17 +55,19 @@
 
                 <!-- Nav Item - Pages Collapse Menu -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fas fa-fw fa-cog"></i>
-                        <span>Products</span>
-                    </a>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                        <div class="bg-white py-2 collapse-inner rounded">
-                 
-     
-                        </div>
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Products</span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="">Brands</a>
+                        <a class="collapse-item" href="">Attributes</a>
+                        <a class="collapse-item" href="">Product List</a>
                     </div>
-                </li>
+                </div>
+            </li>
 
                 <!-- Nav Item - Utilities Collapse Menu -->
                 <li class="nav-item">
@@ -92,38 +94,48 @@
                 
 
                 <!-- Nav Item - Pages Collapse Menu -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#" >
-                        <i class="fas fa-fw fa-folder"></i>
-                        <span>Suppliers</span>
-                    </a>
-                
+               <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                    aria-expanded="true" aria-controls="collapsePages">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Purchasing</span>
+                </a>
+                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="">Product Purchasing</a>
+                        <a class="collapse-item" href="">Supplier</a>
+                    </div>
+                </div>
+            </li>
 
-
-                   
-                </li>
-
-                <!-- Nav Item - Charts -->
+                <!-- Nav Item - Users -->
                 <li class="nav-item">
                     <a class="nav-link" href="">
                         <i class="fas fa-fw fa-chart-area"></i>
                         <span>Users</span></a>
                 </li>
 
-                <!-- Nav Item - Tables -->
+                <!-- Nav Item - Requests -->
                 <li class="nav-item">
                     <a class="nav-link" href="tables.html">
                         <i class="fas fa-fw fa-table"></i>
                         <span>Requests</span></a>
                 </li>
 
+
+                <!-- Nav Item - Transactions -->
+                <li class="nav-item">
+                    <a class="nav-link" href="tables.html">
+                        <i class="fas fa-fw fa-table"></i>
+                        <span>Transactions</span></a>
+                </li>
+
+
                 <!-- Divider -->
                 <hr class="sidebar-divider d-none d-md-block">
 
                 <!-- Sidebar Toggler (Sidebar) -->
-                <div class="text-center d-none d-md-inline">
-                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
-                </div>
+                
 
             </ul>
             <!-- End of Sidebar -->
