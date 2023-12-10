@@ -98,12 +98,13 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                     aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Purchasing</span>
+                    <span>Transactions</span>
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="">Product Purchasing</a>
                         <a class="collapse-item" href="">Supplier</a>
+                        <a class="collapse-item" href="">Requisition</a>
                     </div>
                 </div>
             </li>
@@ -115,20 +116,9 @@
                         <span>Users</span></a>
                 </li>
 
-                <!-- Nav Item - Requests -->
-                <li class="nav-item">
-                    <a class="nav-link" href="tables.html">
-                        <i class="fas fa-fw fa-table"></i>
-                        <span>Requests</span></a>
-                </li>
 
 
-                <!-- Nav Item - Transactions -->
-                <li class="nav-item">
-                    <a class="nav-link" href="tables.html">
-                        <i class="fas fa-fw fa-table"></i>
-                        <span>Transactions</span></a>
-                </li>
+                
 
 
                 <!-- Divider -->
