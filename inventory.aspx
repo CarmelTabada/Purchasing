@@ -84,8 +84,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="inventory.aspx">Inventory</a>
                         <a class="collapse-item" href="">Inventory Report</a>
-                        <a class="collapse-item" href="">Stock Tracking</a>
-                        <a class="collapse-item" href="">Other</a>
+
                     </div>
                 </div>
             </li>
